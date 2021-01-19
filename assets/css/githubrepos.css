@@ -23,6 +23,7 @@
     border-radius: 10px;
     padding: 30px;
     margin: 30px;
+    background-color: #2e3047; 
     overflow: auto;
     overflow-wrap: break-word;
   }
@@ -32,7 +33,7 @@
   }
   .title {
     font-size: 30px;
-    color: #a7ffeb;
+    color: #008aa4;
   }
   
   .bottom {
