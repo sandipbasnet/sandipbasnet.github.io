@@ -42,9 +42,9 @@ function genRepo(user) {
                         $("#repo-box").append("<a href='" + repo_url + "' target='_blank'><div class='repo-item'><h1 class='title'>" +
                             username + "/" +
                             repo_name + "</h1><p class='description'>" +
-                            repo_description + "</p>" + "<div class='bottom'><div class='language'><span class='img' uk-icon='code' class='uk-icon'></span>" +
-                            repo_language + "</div>  <div class='star'><span class='img' uk-icon='star' class='uk-icon'></span>" +
-                            repo_stars + "  </div> <div class='fork'><span class='img' uk-icon='git-fork' class='uk-icon'></span>" +
+                            repo_description + "</p>" + "<div class='bottom'><div class='language'><span><i class='fa fa-code-fork' aria-hidden='true'></i></span></span>" +
+                            repo_language + "</div>  <div class='star'>" +
+                            repo_stars + "  </div> <div class='fork'>" +
                             repo_forks + "</div></div></div>");
                     }
                 }
